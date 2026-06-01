@@ -1,0 +1,199 @@
+{
+  "scenarios": {
+    "scenario_1": {
+      "weights": {
+        "individual": 4.30,
+        "operator": 4.80,
+        "overall": 1.00
+      },
+      "config": {
+        "bus_max_range": 240,
+        "speed_kmh": 60,
+        "charging_duration_mins": 25,
+        "route_segments": [
+          {
+            "from": "Bengaluru",
+            "to": "A",
+            "distance_km": 100
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "distance_km": 120
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "distance_km": 100
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "distance_km": 120
+          },
+          {
+            "from": "D",
+            "to": "Kochi",
+            "distance_km": 100
+          }
+        ],
+        "stations": {
+          "A": {
+            "capacity": 1
+          },
+          "B": {
+            "capacity": 1
+          },
+          "C": {
+            "capacity": 1
+          },
+          "D": {
+            "capacity": 1
+          }
+        }
+      },
+      "buses": [
+        {
+          "id": "bus_01",
+          "operator": "KPN",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "18:00",
+          "departure_time": "18:00"
+        },
+        {
+          "id": "bus_02",
+          "operator": "FRESHBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "18:15",
+          "departure_time": "18:15"
+        },
+        {
+          "id": "bus_03",
+          "operator": "FLIXBUS",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "18:30",
+          "departure_time": "18:30"
+        },
+        {
+          "id": "bus_04",
+          "operator": "KPN",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "18:45",
+          "departure_time": "18:45"
+        },
+        {
+          "id": "bus_05",
+          "operator": "FRESHBUS",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "19:00",
+          "departure_time": "19:00"
+        },
+        {
+          "id": "bus_06",
+          "operator": "FLIXBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "19:15",
+          "departure_time": "19:15"
+        },
+        {
+          "id": "bus_07",
+          "operator": "KPN",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "19:30",
+          "departure_time": "19:30"
+        },
+        {
+          "id": "bus_08",
+          "operator": "FRESHBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "19:45",
+          "departure_time": "19:45"
+        },
+        {
+          "id": "bus_09",
+          "operator": "FLIXBUS",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "20:00",
+          "departure_time": "20:00"
+        },
+        {
+          "id": "bus_10",
+          "operator": "KPN",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "20:15",
+          "departure_time": "20:15"
+        },
+        {
+          "id": "bus_11",
+          "operator": "FRESHBUS",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "20:30",
+          "departure_time": "20:30"
+        },
+        {
+          "id": "bus_12",
+          "operator": "FLIXBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "20:45",
+          "departure_time": "20:45"
+        },
+        {
+          "id": "bus_13",
+          "operator": "KPN",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "21:00",
+          "departure_time": "21:00"
+        },
+        {
+          "id": "bus_14",
+          "operator": "FRESHBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "21:15",
+          "departure_time": "21:15"
+        },
+        {
+          "id": "bus_15",
+          "operator": "FLIXBUS",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "21:30",
+          "departure_time": "21:30"
+        },
+        {
+          "id": "bus_16",
+          "operator": "KPN",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "21:45",
+          "departure_time": "21:45"
+        },
+        {
+          "id": "bus_17",
+          "operator": "FRESHBUS",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "22:00",
+          "departure_time": "22:00"
+        },
+        {
+          "id": "bus_18",
+          "operator": "FLIXBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "22:15",
+          "departure_time": "22:15"
+        },
+        {
+          "id": "bus_19",
+          "operator": "KPN",
+          "direction": "Bengaluru -> Kochi",
+          "departure": "22:30",
+          "departure_time": "22:30"
+        },
+        {
+          "id": "bus_20",
+          "operator": "FRESHBUS",
+          "direction": "Kochi -> Bengaluru",
+          "departure": "22:45",
+          "departure_time": "22:45"
+        }
+      ]
+    }
+  }
+}
